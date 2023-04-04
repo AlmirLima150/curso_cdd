@@ -1,0 +1,27 @@
+numero=int(input("Digite um número: "))
+if numero<1 or numero>12:
+    print("Digite um número correto")
+    if numero == 1:
+        print("Mês selecionado foi Janeiro")
+    elif numero == 2:
+        print("Mês selecionado foi Fevereiro")
+    elif numero == 3:
+        print("Mês selecionado foi Março")
+    elif numero == 4:
+        print("Mês selecionado foi Abril")
+    elif numero == 5:
+        print("Mês selecionado foi Maio")
+    elif numero == 6:
+        print("Mês selecionado foi Junho")
+    elif numero == 7:
+        print("Mês selecionado foi Julho")
+    elif numero == 8:
+        print("Mês selecionado foi Agosto")
+    elif numero == 9:
+        print("Mês selecionado foi Setembro")
+    elif numero == 10:
+        print("Mês selecionado foi Outubro")
+    elif numero == 11:
+        print("Mês selecionado foi Novenbro")
+    elif numero == 12:
+        print("Mês selecionado foi Dezembro")
